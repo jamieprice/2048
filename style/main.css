@@ -405,88 +405,64 @@ hr {
     font-size: 16px; 
     color: #354b59;}
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/udacity/2.png');
     background-size: 100%;
-    color: rgba(0,0,0,0);
+    background-color: lightgrey;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: url('../tile-sets/udacity/4.png');
     background-size: 100%;
-    color: rgba(0,0,0,0);
+    background-color: red;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background: url('../tile-sets/udacity/8.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
-    font-weight: medium;
-    font-size: 11px;
+     background-color: rgb(255, 126, 0); <!-- orange -->
   }
   .tile.tile-16 .tile-inner {
-    background: url('../tile-sets/udacity/16.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
-    font-weight: medium;
-    font-size: 10px;
+    background-color: rgb(255, 232, 0); <!-- yellow -->
   }
   .tile.tile-32 .tile-inner {
-    background: url('../tile-sets/udacity/32.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
-    font-size: 14px;
+    background-color: rgb(168, 238, 144); <!-- light green -->
   }
   .tile.tile-64 .tile-inner {
-    background: url('../tile-sets/udacity/64.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
-    font-size: 14px;
-
+    background-color: rgb(29, 189, 73); <!-- green -->
   }
   .tile.tile-128 .tile-inner {
-    font-weight: medium;
-    background: url('../tile-sets/udacity/128.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+   background-color: rgb(29, 146, 189); <!-- lightblue -->
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 12px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
         font-size: 12px; } }
   .tile.tile-256 .tile-inner {
-    background: url('../tile-sets/udacity/256.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+   background-color: rgb(29, 61, 189); <!-- blue -->
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 14px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
         font-size: 16px; } }
+      }
   .tile.tile-512 .tile-inner {
-    background: url('../tile-sets/udacity/512.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+   background-color: rgb(118, 29, 189); <!-- purple -->
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 13px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 13px; } }
+      }
   .tile.tile-1024 .tile-inner {
-    background: url('../tile-sets/udacity/1024.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+   background-color: rgb(189, 29, 132); <!-- pink -->
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 10px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 10px; } }
+      }
   .tile.tile-2048 .tile-inner {
-    background: url('../tile-sets/udacity/2048.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+   background-color: rgb(221, 185, 208); <!-- light pink -->
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 10px; }
+  }
+  .tile.tile-4096 .tile-inner {
+   background-color: white; <!-- white -->
+    box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
         font-size: 10px; } }
+      }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
